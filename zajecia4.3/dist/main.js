@@ -1,0 +1,2 @@
+let e;function o(e,o,n,l){Object.defineProperty(e,o,{get:n,set:l,enumerable:!0,configurable:!0})}function n(e){return e%2==1}function l(e){let o=e.split("").reverse().join("");return e==o}function t(o,n){let l=[];for(e=o;e<=n;e++)l.push(e);return l}o(module.exports,"isOdd",()=>n),o(module.exports,"palindrom",()=>l),o(module.exports,"range",()=>t),o(module.exports,"sum",()=>s),console.log(n(5)),console.log(!0),console.log(l("maslo")),console.log(t(1,4));let r,u=0;function s(e){for(r=0;r<e.length;r++)u+=e[r];return u}console.log(s([3,7,5]));
+//# sourceMappingURL=main.js.map

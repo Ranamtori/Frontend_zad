@@ -1,0 +1,28 @@
+{
+  "name": "@ranamtori/zajecia4.3",
+  "version": "1.0.2",
+  "description": "",
+  "source": "src/index.js",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "targets": {
+    "main": {
+      "optimize": true
+    },
+    "module": {
+      "optimize": true
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "author": "jgrzankowska",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  }
+}

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Świąteczny clicker</title>
+  </head>
+  <body>
+
+    <header>
+      <h1>🎄Świąteczny Cookie clicker 🎅</h1>
+     
+      <div class="ulozenie1">
+        <button class="button-clicker" id="button-clicker">
+          <img src="./gingerbread_man.png" alt="Piernik" class="nopiernik">           
+        </button>
+
+        <div class="ulozenie2">
+          <h2 class="score-header">Łącznie pierników: <span id="score-counter">0</span></h2>
+          <p>Pierników na sekundę: <span id="score-per-second">0</span></p>
+          <p>Pierników na kliknięcie: <span id="score-per-click">1</span></p>            
+        </div>
+      </div>
+
+    </header>
+
+
+    <main>
+      <div class="przyciski">
+        <div class="przycisk">
+          <button type="button" class="upgrade" id="upgrade-1-button">
+             <img src="./elf.png" alt="Elf" class="obrazek">            
+          </button>
+
+          <div class="upgrade-info">
+          <h3 class="tytulprzycisku">Nowy elf pomocnik</h3>
+          <p>Poziom: <span id="score-lvl-1">0</span></p>
+          <p>Koszt: 15</p>
+          <p>+1/sekundę</p>            
+          </div>
+          
+        </div>
+
+        <div class="przycisk">
+          <button type="button" class="upgrade" id="upgrade-1-button">
+            <img src="./deer.png" alt="Deer" class="obrazek">            
+          </button>
+
+          <div class="upgrade-info">
+            <h3 class="tytulprzycisku">Dodatkowy renifer</h3>
+            <p>Poziom: <span id="score-lvl-2">0</span></p>
+            <p>Koszt: 50</p>
+            <p>+5/sekundę</p>            
+          </div>
+        </div>
+
+        <div class="przycisk">
+          <button type="button" class="upgrade" id="upgrade-1-button">
+            <img src="./santa-claus-sled.png" alt="Sled" class="obrazek">
+          </button>
+          
+          <div class="upgrade-info">
+            <h3 class="tytulprzycisku">Ulepszone sanie</h3>
+            <p>Poziom: <span id="score-lvl-3">0</span></p>
+            <p>Koszt: 150</p>
+            <p>+10/sekundę</p>            
+          </div>
+        </div>
+
+        <div class="przycisk">
+          <button type="button" class="upgrade" id="upgrade-1-button">
+            <img src="./factory.png" alt="Factory" class="obrazek">
+          </button>
+          
+          <div class="upgrade-info">
+            <h3 class="tytulprzycisku">Nowa fabryka prezentów</h3>
+            <p>Poziom: <span id="score-lvl-4">0</span></p>
+            <p>Koszt: 300</p>
+            <p>+20/sekundę</p>            
+          </div>
+        </div>
+
+        <div class="przycisk">
+          <button type="button" class="upgrade" id="upgrade-1-button">
+            <img src="./open-box.png" alt="Box" class="obrazek">
+          </button>
+          
+          <div class="upgrade-info">
+            <h3 class="tytulprzycisku">Świąteczny paczkomat</h3>
+            <p>Poziom: <span id="score-lvl-5">0</span></p>
+            <p>Koszt: 1000</p>
+            <p>+30/sekundę</p>            
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
